@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather Check</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="uudh-con">
+
+        <div class="title">
+            <div class="title-text">
+                <h1>Quick Weather Check</h1>
+            </div>
+            <div class="des-text">
+                <p>Get the weather overview of a particular location with just a click</p>
+            </div>
+        </div>
+        <div class="body-con">
+            <form  for="location" class="form" id="form">
+                <input type="text" name="location" id="location-input" placeholder="Enter Location" id="location-input">
+                <button type="submit" id="submit">Check Weather</button>
+            </form>
+
+            <div class="result-con">
+                <div class="top-con">
+                <div class="loction">
+                    <div class="lo-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="location-city" id="location-city">
+                        <h4>Location</h4>
+                    </div>
+                </div>
+                <div class="date-time" id="date-time">
+                    <p>00, _____ 202_ at 0:00:00</p>
+                </div>
+                </div>
+                <div class="bottom-con">
+                    <div class="left">
+                        <div class="temp-degre">
+                            <div class="temp" id="temp">
+                                <h1>0</h1>
+                            </div>
+                            <div class="parameter">
+                                <div class="degree-symbol">
+                                    <p>&deg;</p>
+                                </div>
+                                <div class="paramitta">
+                                    <p>C</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="wether-descrip" id="wether-descrip">
+                            <p>Weather Description</p>
+                        </div>
+
+                    </div>
+
+                    <div class="right">
+                    <div class="weather-readings">
+                        <div class="label">
+                            <p>Wind Speed</p>
+                            <div class="value-read" id="wind-spreed">
+                                0km/h
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="weather-readings">
+                        <div class="label">
+                            <p>Humidity</p>
+                            <div class="value-read" id="humidity">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Crafted with ❤️ by</p>
+            <a href="https://adejuwon.vercel.app/" target="_blank">Adejuwon</a>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
